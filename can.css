@@ -1,4 +1,4 @@
-*{
+ *{
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing: border-box;
@@ -54,10 +54,88 @@ table {
 	border-spacing: 0;
 }
 
+@media(max-width:768px){
+	.wrap {
+		width: 768px;
+		margin:0 auto;
+
+	}
+
+
+
+
+
+
+
+
+
+.top {
+
+		margin: 0 auto;
+	}
+
+	.topmenu {
+		text-align: center;
+		margin:0 auto;
+		width: 100%;
+
+	}
+
+	.banner {
+		width: 100%;
+	}
+
+	.content .course .catalog {
+		margin:20px auto 20px auto;
+		float:none;
+	
+
+
+
+
+		width: 100%;
+	}
+
+	
+
+	#comparison {
+		width: 100%;
+		
+	}
+h2 {
+	text-align: center;
+}
+
+		
+
+
+	
+	
+.col-three-quarters {
+			width:100%;
+
+
+		margin:0 auto;
+
+	}
+
+
+
+
+
+a{
+	width:100%;
+	text-align:center;
+}
+
+}
+
 .wrap {
 	margin:0 auto;
 	position: relative;
-	width: 1200px;
+		max-width: 960px;
+
+
 
 	}
 
@@ -133,7 +211,7 @@ margin-top: 15px;
 .content {
 
 margin:0 auto;
-margin-left: 150px;
+
 
 
 
@@ -152,10 +230,14 @@ margin-left: 150px;
 	padding:10px;
 	line-height: 1.5;
 	margin-bottom: 80px;
+}
 
- 
+
+.catalog li{
+	display: block;
 
 }
+
 
 
 .course .catalog p{
@@ -171,6 +253,9 @@ margin-left: 150px;
 	margin-left:500px;
 	font-size:30px;
 	margin-bottom:20px;
+	margin:0 auto;
+	text-align: center;
+	padding-bottom: 20px;
 
 }
 
@@ -210,12 +295,35 @@ margin-left: 150px;
 
 
 
-/*留言板的位置分佈有點抓不太到方向Ｑ＿Ｑ*/
+
+.col-three-quarters {
+
+
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.texta {
+	
+/*請教老師 在留言板跟表單輸入float沒辦法左右放好*/
+
+margin:20px;
+margin-right: 30px;
+text-align: center;	
+}
+
+
 .form{
 
 	background: url(images/bg3.png);
 	background-repeat:repeat-x;
-	height: 400px;
+	max-width: 960px;
+
+
+
+	margin:0 auto;
+
 
 	background-color:#009770;
 
@@ -225,89 +333,71 @@ margin-left: 150px;
 	text-align: center;
 	color:#fff;
 	padding-top: 20px;
-	font-size: 36px;
+	font-size: 28px;
+
+}
+
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 36px;
+  padding: 6px 12px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555;
+  background-color: rgba(255,255,255,.95);
+  border: 3px solid transparent;
+  border-color: rgba(0,0,0,.15);
+  transition: border-color .3s;
 
 
 
+  
+
+  box-shadow: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.form-group {
+	margin-bottom: 15px;
+
+}
+
+
+.btn {
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px gray;
+	border:#fff solid 3px;
+	cursor: pointer;
 
 
 
 
 }
 
+.btn:hover, .btn:focus, .btn:active {
+  background-color: skyblue;
+  color: white;
+}
 
-
-
-textarea {
-	
-	position: absolute;
-float:left;
-margin:20px;
-margin-right: 30px;
-
-
-
-
+.footer {
+	max-width: 960px;
 
 }
 
-
-
-form {
-
-
-
-float:right;
-position: absolute;
-left:500px;
-
+.footerlogo{
+	float: left;
 }
 
-
-
-
-
-
-
-
-label {
-	color:#fff;
-     display: block;
-}
-
-input {
-	display: block;
-
-}
-
-#name,#number,#email {
-	width: 600px;
-	height: 25px;
-}
-
-#send {
+.footerconnent{
 	float:right;
 }
 
-.footer{
-	width: 1200px;
-	height:100px;
-	margin: 0 auto;
-	position: relative;
+.footerconnent li {
+	display: block;
+	color: red;
 }
-
-.footer .footerlogo{
-position: absolute;
-float: left;	
-top:-20px;
-}
-
- .footerconnent   {
-
-float: right;	
-position: absolute;
-width: 100px;
-height: 100px;
-right:100px;
-}
-
