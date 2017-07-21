@@ -1,4 +1,4 @@
- *{
+*{
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing: border-box;
@@ -351,19 +351,11 @@ text-align: center;
   border-color: rgba(0,0,0,.15);
   transition: border-color .3s;
 
-
-
-  
-
-  box-shadow: none;
-  border-radius: 0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
 }
 
 .form-group {
 	margin-bottom: 15px;
+	color:#fff;
 
 }
 
